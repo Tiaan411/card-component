@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "montserrat", "Fraunces", sans-serif;
+    font-weight: 500;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    max-width: 800px;
+}
+
+.main h4, p, h5 {
+    color: hsl(228, 12%, 48%);
+}
+
+.image img {
+    max-width: 300px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 300px;
+    padding: 30px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.price h1 {
+    color: hsl(158, 36%, 37%);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.button button {
+    padding: 15px 60px;
+    background-color: hsl(158, 36%, 37%);
+    color: aliceblue;
+    border: none;
+    border-radius: 15px;
+}
+
+.button button:hover {
+    background-color: hsl(158, 42%, 18%);
+    cursor: pointer;
+}
+
+.button button h3 {
+    display: inline-block;
+    margin-left: 10px;
+}
